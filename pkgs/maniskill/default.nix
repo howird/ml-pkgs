@@ -35,10 +35,10 @@ buildPythonPackage rec {
   version = "3.0.0";
 
   src = fetchFromGitHub {
-    owner = "haosulab";
+    owner = "howird";
     repo = pname;
-    rev = "41a5cede87379cf311cfb6dad3f10626bdee66c7";
-    hash = "sha256-nQS09Iuvel5gj1L6Z9qy6JqVMLUeEDTzJ0EYpoZmqcw=";
+    rev = "37b7d751a2133390db06fceb2900696287d87124";
+    hash = "sha256-PFlMuy7VxW9WMfZJIuE3xvuPOnP6T3StfR8FY0AEl0g=";
   };
 
   propagatedBuildInputs = [
